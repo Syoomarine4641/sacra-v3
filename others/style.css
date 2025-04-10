@@ -225,3 +225,15 @@ footer{
     font-size: 1.5em;
   }
 }
+@media screen and (max-width: 500px) {
+  .adminers_card{
+    display: block;
+  }
+  .adminers_card div{
+    width: fit-content;
+    margin: 0 auto 10px auto;
+  }
+  .adminers_card img{
+    margin: 0 calc(50% - 150px);
+  }
+}
