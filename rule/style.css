@@ -5,9 +5,6 @@ main{
 li{
     text-align: left;
 }
-.first{
-    margin-top: 100px;
-}
 .returns{
     display: block;
     text-decoration: none;
@@ -19,4 +16,7 @@ li{
     width: calc(100% - 40px);
     max-width: 600px;
     border-radius: 10px;
+}
+.first{
+    margin-top: 100px;
 }
