@@ -52,8 +52,8 @@ header img{
     height: 90vh;
 }
 .cachecopy{
-    width: 12em;
-    animation: typing 2s steps(12), effect .5s step-end infinite alternate;
+    width: 11em;
+    animation: typing 2s steps(11), effect .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
