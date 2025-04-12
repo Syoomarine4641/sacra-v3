@@ -238,26 +238,7 @@
             <p>2025 ©kakeru</p>
             <p>Powered by SAKURA-Talk-Kingdum</p>
         </footer>
-        <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
         <script>
-            //Show image in full-screen on click.
-            $('img').addClass('img-enlargable').click(function () {
-                var src = $(this).attr('src');
-                console.log("fulled");
-                $('<div>').css({
-                    background: 'RGBA(0,0,0,.8) url(' + src + ') no-repeat center',
-                    backgroundSize: 'contain',
-                    width: '100%',
-                    height: '100%',
-                    position: 'fixed',
-                    zIndex: '10000',
-                    top: '0',
-                    left: '0',
-                    cursor: 'zoom-out'
-                }).click(function () {
-                    $(this).remove();
-                }).appendTo('body');
-            });
             const button = document.getElementById('adminersview');
             const item = document.getElementById('adminers');
 
