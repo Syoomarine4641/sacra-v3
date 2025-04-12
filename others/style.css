@@ -98,7 +98,14 @@ header img{
   text-align: center;
   font-size: 2em;
 }
-
+.howtojoin span{
+  display: inline-block;
+  color: #fff;
+  background-color: #4d5ef5;
+  border-radius: 0.4em;
+  padding: 0 0.2em;
+  margin-bottom: 10px;
+}
 
 .joinstap{
   width: calc(100% -30px);
@@ -267,5 +274,12 @@ footer img{
 @media screen and (max-width: 500px) {
   .footer-box{
     display: block;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .howtojoin{
+    width: 60%;
+    margin: auto;
   }
 }
