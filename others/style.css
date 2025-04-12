@@ -287,6 +287,10 @@ footer img{
 }
 
 @media screen and (min-width: 1000px) {
+  .about{
+    width: 80%;
+    margin: auto;
+  }
   .howtojoin{
     width: 60%;
     margin: auto auto 30px auto;
