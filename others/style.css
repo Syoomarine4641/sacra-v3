@@ -4,7 +4,6 @@
   font-style: normal;
 }
 
-
 html,body{
     margin: 0;
     background-color: #f3feff;
@@ -91,12 +90,20 @@ header img{
   margin: 10px;
 }
 
-
 .status{
   margin: 10px;
+  text-align: center;
 }
 .status h2{
   text-align: center;
+}
+#status_online{
+  text-align: center;
+  font-size: 2em;
+}
+table{
+  width: fit-content;
+  margin: 0 auto;
 }
 
 

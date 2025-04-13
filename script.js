@@ -15,17 +15,22 @@ if (item.style.display === 'none') {
 
 async function fetchServerStatus() {
     const statuses = document.getElementById("status_online");
+    const details = document.getElementById("status_detail");
     const members = document.getElementById("status_members");
     fetch("https://api.mcsrvstat.us/3/play.kotoca.net")
         .then(response => response.json())
         .then(data => {
+            console.log(data);
             if(data.online){
                 statuses.textContent = "起動中";
-                members.textContent = 
+                statuses.style.color = "#25b138";
+                members.textContent = data.players.online;
+                details.style.display = "block";
             }else{
                 statuses.textContent = "オフライン";
+                statuses.style.color = "#d32626";
+                details.style.display = "none";
             }
-            console.log(data.players.online);
         })
         .catch(error => {
             console.error("取得エラー:", error);
