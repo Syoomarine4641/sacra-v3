@@ -91,6 +91,15 @@ header img{
   margin: 10px;
 }
 
+
+.status{
+  margin: 10px;
+}
+.status h2{
+  text-align: center;
+}
+
+
 .howtojoin{
   margin: 10px 10px 30px 10px;
 }

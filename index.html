@@ -55,6 +55,21 @@
 
         <hr>
 
+        <div class="status">
+            <h2>サーバーステータス</h2>
+            <p id="status_online">取得中...</p>
+            <div class="status_detail">
+                <table>
+                    <tr>
+                        <th>メンバー数</th>
+                        <td id="status_members">取得中...</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <hr>
+
         <div class="howtojoin">
             <h3>参加方法</h3>
             <div class="joinstap">
@@ -228,21 +243,6 @@
             <p>2025 ©kakeru</p>
             <p>Powered by SAKURA-Talk-Kingdum</p>
         </footer>
-        <script>
-            const button = document.getElementById('adminersview');
-            const item = document.getElementById('adminers');
-
-            button.addEventListener('click', () => {
-            if (item.style.display === 'none') {
-                // 非表示なら表示する
-                item.style.display = 'flex';
-                button.textContent = "運営陣を非表示▼";
-            } else {
-                // 表示されているなら非表示にする
-                item.style.display = 'none';
-                button.textContent = "運営陣を表示▲";
-            }
-            });
-            </script>
+        <script src="./script.js" async></script>
     </body>
 </html>
