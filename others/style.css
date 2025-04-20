@@ -120,8 +120,9 @@ table{
   background-color: #4d5ef5;
   border-radius: 0.4em;
   padding: 0 0.2em;
+  text-decoration: none;
 }
-.howtojoin span:hover{
+.sakura-bot:hover{
   background-color: #717efc;
 }
 
@@ -166,7 +167,7 @@ table{
   padding-bottom: 5px;
   font-size: 1.5em;
 }
-.joins a:hover{
+.joinstap_a:hover{
   background: linear-gradient(90deg ,#d4ffff ,#99ffff);
 }
 .joins img{
