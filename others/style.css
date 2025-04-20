@@ -234,12 +234,33 @@ table{
   display: inline;
 }
 
-.onlinetime h3{
+.onlinetime h3 ,.event_ca h3{
   text-align: center;
   margin: 30px 0;
   font-size: 1.5em;
 }
+
 .onlinetime div{
+  margin: 10px;
+  text-align: center;
+}
+.onlinetime table{
+  border-collapse: collapse;
+  border: #fff solid 1px;
+  width: 60%;
+}
+.onlinetime tr,.onlinetime th{
+  border: 1px solid #fff;
+}
+.onlinetime th{
+  padding: 5px;
+  background-color: #b3f0e8;
+}
+.onlinetime td{
+  background-color: #e8f9fa;
+}
+
+.event_ca div{
   height: 90vh;
   width: calc(100% - 20px);
   margin: 10px;
@@ -295,6 +316,10 @@ footer img{
   .adminers_card img{
     margin: 0 calc(50% - 150px);
   }
+
+  .onlinetime table{
+    width: 100%;
+  };
 }
 
 @media screen and (max-width: 500px) {
